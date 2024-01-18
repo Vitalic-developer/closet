@@ -304,7 +304,10 @@
         right: 25px
     }
 
-
+    .popup{
+        width: 480px;
+        padding: 20px 15px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -476,5 +479,22 @@
     }
     .payment h4{
         align-items: flex-start;
+    }
+    form p {
+        font-size: 14px;
+    }
+
+    .popup {
+        width: 300px;
+    }
+    .fields input{
+        padding:  10px 0 10px 15px;
+    }
+    .fields button{
+        height: 35px;
+    }
+    .close-popup{
+        right: 20px;
+        top: 10px;
     }
 }
